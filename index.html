@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Directory Portal</title>
+    <link rel="stylesheet" href="Custom.css">
+</head>
+<body>
+    <!-- *************************************Registration Form******************************************* -->
+     <section class="portal">
+     <h1>Company Directory Portal</h1>
+    <section class="registration-form" style="background-color: lightblue;">
+        <h2 style="text-align: center;">Employee Registration Form</h2>
+        <form id="registrationForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="department">Department:</label>
+            <select id="department" name="department" required>
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                <option value="Finance">Finance</option>
+            </select>
+
+            <label for="employeeId">Employee ID:</label>
+            <input type="text" id="employeeId" name="employeeId" required>
+
+            <label for="profilePicture">Profile Picture URL:</label>
+            <input type="url" id="profilePicture" name="profilePicture" required>
+
+            <button type="submit">Register Employee</button>
+        </form>
+    </section>
+
+    <!-- *******************************Employee List******************************* -->
+    <section class="employee-list" style="border-radius: 10px; background-color: floralwhite; ">
+        <h2 style="text-align: center;">Employee List</h2>
+        <ol type="1">
+            
+            
+            <li><a href="#">Akhilesh2001@gmail.com</a></li><hr>
+            <li><a href="#">Adithya2003@gmail.com</a></li><hr>
+        </ol>
+    </section>
+
+    <!-- *****************************************Employee Details ************************************* -->
+    <section class="employee-details">
+        <h2 style="text-align: center;">Employee Details</h2>
+        <table style="border-radius: 4px;">
+            <thead >
+                <tr >
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Profile Picture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="text-align: center;">
+                    <td>Akhil</td>
+                    <td>12345</td>
+                    <td>IT</td>
+                    <td><img src="https://cdn-icons-png.flaticon.com/512/4086/4086679.png" alt="" width="50px" height="50px" ></td>
+                   
+                </tr>
+                <tr>
+                    <td colspan="4"><hr></td> 
+                </tr>
+                <tr style="text-align: center;">
+                    <td>Adithya</td>
+                    <td>67890</td>
+                    <td>HR</td>
+                    <td><img src="https://cdn-icons-png.flaticon.com/512/3048/3048124.png" alt="" width="50px" height="50px"></td>
+                </tr>
+                <td colspan="4"><hr></td> 
+            </tbody> 
+        </table>
+    </section>
+
+    <!-- ************************************Company Location *********************************************** -->
+   
+        <h2 style="text-align: center;">Company Location</h2>
+        <div id="location-map">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121766.35543884171!2d78.24579394335933!3d17.49803020000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1727260388520!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    
+</section1>
+</body>
+</html>
+
